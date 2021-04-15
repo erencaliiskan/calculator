@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+#title {
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    letter-spacing: 4px;
+}
+#title-quote {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.calc {
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    width: 400px;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.main-screen {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    padding: 20px 10px;
+}
+.calc-row {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-bottom: 0.5%;
+
+}
+.calc-button {
+    background-color: #d8d9db;
+    color: black;
+    height: 100px;
+    width: 24.5%;
+    border: none;
+    border-radius: 0;
+    font-size: 45px;
+    cursor: pointer;
+}
+.calc-button:hover {
+    background-color: #ebebeb;
+}
+.calc-button:active {
+    background-color: #bbbcbe;
+}
+.calc-button:last-child{
+    background-color: #e48b2c;
+    color:white;
+}
+.calc-button:last-child:hover{
+    background-color: #f7b772;
+}
+.calc-button:last-child:active{
+    background-color: #dd8d37;
+}
+.double {
+    width: 49.7%;
+}
+.triple {
+    width: 74.8%;
+}
